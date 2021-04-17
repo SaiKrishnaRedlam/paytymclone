@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm.com – Recharge &amp; Utility Payments, Entertainment, Travel, DTH,  Wallet &amp; Payments</title>
+    <link rel="stylesheet" href="paytm.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <section id="Header">
+        <article>
+          <div class="sub-header">
+              <span class="head">Shop Now</span>
+               <span>New Offers Daily: Up to 80% Off</span>
+               <!-- Right block starts here -->
+               <span class="rb"><a href="#">Paytm Service Agent</a></span>
+               <span class="rb"><a href="#">Accept payments</a></span>
+               <span class="rb"><a href="#">Food Wallet</a></span>
+               <span class="rb"><a href="#">Track Order</a></span>
+               <span class="rb"><a href="#">Sell on paytm mall</a></span>
+               <span class="rb"><a href="#">Paytm Smart Retail</a></span>
+               <span class="rb"><a href="#">KYC</a></span>
+               <span class="rl"><a href="#">24*7 Help</a>
+                </span>
+               <!-- Right block ends here -->
+            </div>
+        </article>
+    </section>
+    <!-- Header part starts -->
+    <section id="headerblock-2">
+        <article>
+          <div >
+            <span><i class="fas fa-bars icon"></i></span>
+            <span class="color">pay</span>
+            <input type="text" 
+                   class="input"
+                    placeholder="Search for a product ,Brand or Category"/>
+            <span class="search"><i class="fas fa-search"></i></span>  
+           <img class="one" src="//assetscdn1.paytm.com/dexter/c31b8a6c95d459485a993039d5b1714f.gif" alt="MobileImg"  data-reactid="25">
+           <span class="play">Play and Win</span>
+           <img class="two" src="//assetscdn1.paytm.com/dexter/addMoney-b9bccc4e235b082ef9d75a4da93faa70.svg" alt="Add Money" width="20px" data-reactid="28">
+           <span class="add">Add Money</span>
+           <span class="wallet"><i class="fas fa-wallet"></i></span>
+           <span class="wallet1">Paytm wallet</span>
+           <span class="login"><i class="far fa-smile-wink"></i></span>
+           <span class="login1">Login/SignUp</span>
+            </div>
+        </article>
+    </section>
+    <section id="headerblock-3">
+        <article>
+          <div >
+            <img class="Postpaid" src="./postpaid.png" alt="Prepaid/Postpaid" data-reactid="64">
+            <span class="postpaid">Prepaid/Postpaid</span>
+            <img class="elctricitypic" src="./electricity.png" alt="electricity pic">
+            <span class="electricity">Electricity</span>
+            <img class="dtcpic" src="./dtc.webp" alt="dtc pic">
+            <span class="dtc">Dtc</span>
+            <img class="flightpic" src="./flight.webp" alt="flight pic">
+            <span class="flight">Flight</span>
+            <img class="trainpic" src="./train.png" alt="train pic">
+            <span class="train">Metro</span>
+            <img class="broadpic" src="./broad.png" alt="train pic">
+            <span class="broad">BroadBand</span>
+            <img class="fastTagpic" src="./fastTag.webp" alt="train pic">
+            <span class="fastTag">FastTag</span>
+            <img class="educationpic" src="./education.webp" alt="train pic">
+            <span class="education">Education</span>
+            <img class="paypic" src="./pay.webp" alt="train pic">
+            <span class="pay">Pay Loan</span>
+            <img class="investpic" src="./invest.png" alt="train pic">
+            <span class="invest">Invest in Stocks</span>
+            <img class="cylinderpic" src="./cylinder.webp" alt="train pic">
+            <span class="cylinder">Book a Cylinder</span>
+            <span class="morepic"><i class="far fa-caret-square-down"></i></span> 
+            <span class="more">More</span>
+            <span class="dropdown-content">
+                <p>saiki</p>
+                <p>gopi</p>
+                <p>satya</p>
+                <p>hari</p>
+                <p>mani</p>
+            </span>
+            
+            </div>
+        </article>
+    </section>
+
+    <!-- header block-4 -->
+    <section id="headerblock-4">
+        <article>
+          <div>
+            <span class="line1">Mobile Recharge or Bill Payment</span>
+            <input class="prepaid1" type="radio" id="prepaid" name="recharge" value="prepaid">
+            <label class="prepaid2" for="prepaid">Prepaid</label><br>
+            <input class="postpaid1" type="radio" id="postpaid" name="recharge" value="postpaid">
+             <label class="postpaid2" for="postpaid">Postpaid</label><br>
+             <input type="text" 
+                   class="input1"
+                    placeholder="Mobile Number"/>
+            <input type="text" 
+                   class="input2"
+                    placeholder="Operator"/>
+            <input type="text" 
+                   class="input3"
+                    placeholder="Amount"/>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <span class="fastforward"><i class="fas fa-fast-forward"></i></span>
+            <span class="fastforward1"><a href="#">Fast Forward</a></span>
+            <span class="instant">instant payment from your paytm bank</span>
+            <button class="button">Proceed to Recharge </button>
+            </div>
+        </article>
+    </section>
+    <!-- header5 -->
+    <section id="headerblock-5">
+        <article>
+          <div>
+            <img class="app" src="./app.webp" alt="">
+            <span class="mall"><a href="">Shop on Mall</a> </span>
+            <img class="app" src="./app.webp" alt="">
+            <span class="mall"><a href="">Shop on Mall</a> </span>
+            <img class="app" src="./app.webp" alt="">
+            <span class="mall"><a href="">Shop on Mall</a> </span>
+            <img class="app" src="./app.webp" alt="">
+            <span class="mall"><a href="">Shop on Mall</a> </span>
+            <img class="app" src="./app.webp" alt="">
+            <span class="mall"><a href="">Shop on Mall</a> </span>
+            <img class="app" src="./app.webp" alt="">
+            <span class="mall"><a href="">Shop on Mall</a> </span>
+
+            </div>
+        </article>
+        <!-- header 6 -->
+    </section>
+    <section id="headerblock-6">
+        <article>
+          <div>
+            
+            </div>
+        </article>
+    </section>
+</body>
+</html>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Open Sans,arial,tahoma,verdana,sans-serif;
+}
+#Header{
+    background-color: #f2f2f2;
+    height: 28;
+    width: 100%;
+}
+.sub-header .head{
+ border:1px solid rgb(231,75,36);
+font-size: 13px;
+font-weight: 600;
+background-color: rgb(231,75,36);
+color: #ffff;
+margin: 10px;
+}
+.sub-header :nth-child(2){
+   font-size: 11px;
+   font-weight: 600;
+   color: rgb(51,51,51);
+   margin: -12px;
+   }
+
+.sub-header .rb a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #828282;
+    background: none;
+    margin: 0px 7px;
+    padding: 0px 3px;
+    position: relative;
+    left: 99px;
+    border-right: 1px solid #828282;
+
+}
+.sub-header .rl a{
+    font-weight: 600;
+    color: #828282;
+    margin: 0px 97px;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(51,51,51);
+
+}
+/* header-2 */
+#headerblock-2{
+    height: 70px;
+    width: 100%;
+    background: white;
+}
+span .icon{
+    font-weight: 1000;
+    margin: 24px 41px;
+}
+.color{
+    margin: 0 -17px;
+    color: #20336b;
+    font-size: 25px;
+    font-family: fantasy;
+}
+.color::after{
+    content: "tm";
+    color: #00b9f5;
+}
+input{
+    margin: 0 78px;
+    padding: 6px 35px;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 2px;
+}
+.input:hover{
+background-color: #ebebeb;
+}
+::placeholder{
+    font-size: 17px;
+}
+input:focus{           /* focus is a pseudo selector */
+    outline: none;
+}
+.search{
+    position: relative;
+    left: -445px;
+    color: #828282;
+}
+.one{
+    position: relative;
+    left: 80px;
+    bottom: -8px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+.play{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px 85px;
+}
+.two{
+    position: relative;
+    right: 50px;
+    bottom: -8px;
+    width: 29px;
+    height: 36px;
+    cursor: pointer;
+}
+.add{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0px -33px;
+}
+.wallet i{
+    position: relative;
+    right: -47px;
+    bottom: -2px;
+    width: 29px;
+    height: 36px;
+    cursor: pointer;
+}
+.wallet1{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0px 46px;
+}
+.login i{
+    right: 0px;
+    bottom: -2px;
+    width: 29px;
+    height: 36px;
+    cursor: pointer;
+}
+.login1{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0px 8px;
+}
+/* headerlock 3 */
+#headerblock-3{
+    height: 200px;
+    width: 100%;
+    background-color: #012b72;
+}
+.Postpaid,.elctricitypic,.dtcpic{
+    position: relative;
+    left: 90px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.postpaid,.electricity,.dtc{
+    cursor: pointer;
+    position: relative;
+    left: 6px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.postpaid:hover{
+    color: white;
+}
+.elctricitypic{
+    position: relative;
+    left: 45px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.electricity{
+    cursor: pointer;
+    position: relative;
+    left: -14px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.electricity:hover{
+    color: white;
+}
+.dtcpic{
+    position: relative;
+    left: 20px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.dtc{
+    cursor: pointer;
+    position: relative;
+    left: -19px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.dtc:hover{
+    color: white;
+}
+.flightpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.flight{
+    cursor: pointer;
+    position: relative;
+    left: -16px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.flight:hover{
+    color: white;
+}
+.trainpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.train{
+    cursor: pointer;
+    position: relative;
+    left: -16px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.train:hover{
+    color: white;
+}
+.broadpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.broad{
+    cursor: pointer;
+    position: relative;
+    left: -32px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.broad:hover{
+    color: white;
+}
+
+.fastTagpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.fastTag{
+    cursor: pointer;
+    position: relative;
+    left: -27px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.fastTag:hover{
+    color: white;
+}
+.educationpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.education{
+    cursor: pointer;
+    position: relative;
+    left: -27px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.education:hover{
+    color: white;
+}
+.paypic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.pay{
+    cursor: pointer;
+    position: relative;
+    left: -27px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.pay:hover{
+    color: white;
+}
+.investpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.invest{
+    cursor: pointer;
+    position: relative;
+    left: -50px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.invest:hover{
+    color: white;
+}
+.cylinderpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.cylinder{
+    cursor: pointer;
+    position: relative;
+    left: -50px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.cylinder:hover{
+    color: white;
+}
+.morepic i{
+    position: relative;
+    left: -31px;
+    top: 16px;
+    bottom: 6px;
+    width: 40px ;
+    height: 31px;
+    color: white;
+}
+.more{
+    cursor: pointer;
+    position: relative;
+    left: -85px;
+    bottom: -47px;
+    color: cornflowerblue;
+    display: inline-block;
+}
+.more:hover{
+    color: white;
+}
+  
+.dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 19px 13px;
+    margin: 96px -163px;
+    z-index: 1;
+  }
+  
+.more:hover .dropdown-content {
+    display: block;
+  }
+ .dropdown-content p{
+    width: 159px;
+    padding: 16px 4px;
+    display: block;
+    border: 1px solid;
+  }
+  div .dropdown-content p:hover{
+     background-color: cadetblue;
+  }
+
+
+#headerblock-4 {
+    position: relative;
+    top: -104px;
+    left: 48px;
+    height: 207px;
+    width: 1405px;
+    background-color:  white;
+}
+.line1{
+    font-family: inherit;
+    font-size: 20px;
+    left: 24px;
+    position: relative;
+    top: 14px;
+}
+.prepaid1{
+    position: relative;
+    left: -346px;
+    bottom: -57px;
+    width: 24px;
+    height: 31px;
+    color: white;
+}
+.prepaid2{
+    cursor: pointer;
+    position: relative;
+    left: -409px;
+    font-size: 19px;
+    bottom: -48px;
+    color: black;
+}
+.postpaid1{
+    position: relative;
+    left: 114px;
+    bottom: -21px;
+    width: 24px ;
+    height: 31px;
+    color: white;
+}
+.postpaid2{
+    cursor: pointer;
+    position: relative;
+    left: 51px;
+    font-size: 19px;
+    bottom: -12px;
+    color: black;
+}
+.input1{
+    position: relative;
+    left: -57px;
+    top: 64px;
+    padding: 11px 11px;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 2px;
+}
+.input2{
+    position: relative;
+    left: 131px;
+    top: 66px;
+    padding: 11px 11px;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 2px;
+}
+.input3{
+    position: relative;
+    left: 277px;
+    top: 19px;
+    padding: 11px 11px;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 2px;
+}
+#checkbox{
+    width: 28px;
+    height: 30px;
+    font-size: 46px;
+    left: 497px;
+    cursor: pointer;
+    top: -65px;
+    position: relative;
+}
+.fastforward{
+    position: relative;
+    left: 442px;
+    bottom: 76px;
+    width: 24px ;
+    height: 31px;
+    cursor: pointer;
+    color: rgb(48, 154, 196);
+}
+.fastforward1{
+    position: relative;
+    left: 452px;
+    bottom: 78px;
+    cursor: pointer;
+}
+.fastforward1 a{
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(17, 83, 109);
+}
+.instant{
+    position: relative;
+    left: 310px;
+    top: -51px;
+    color: grey;
+}
+.button{
+    background: rgb(63, 96, 110);
+    color:white;
+    left: -12px;
+    cursor: pointer;
+    top: 2px;
+    position: relative;
+    padding: 19px 88px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button:hover{
+    background:rgb(76, 76, 179);
+}
+#headerblock-5{
+    width: 1400px;
+    height: 134px;
+    left: 51px;
+    top: -88px;
+    position: relative;
+    background: rgb(240, 231, 231);
+}
+.app{
+    width: 93px;
+    height: 88px;
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+    top: 11px;
+    border-radius: 50%;
+}
+.mall{
+    font-size: 22px;
+    position: relative;
+    left: -71px;
+    top: 35px;  
+}
+.mall a{
+    text-decoration: none;
+    color: black;
+}
+#headerblock-6{
+    height: 380px;
+    width: 838px;
+    position: relative;
+    left: 51px;
+    top: -63px;
+    background-image: url(./image1.webp);
+}

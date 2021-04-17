@@ -1,0 +1,559 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Open Sans,arial,tahoma,verdana,sans-serif;
+}
+#Header{
+    background-color: #f2f2f2;
+    height: 28;
+    width: 100%;
+}
+.sub-header .head{
+ border:1px solid rgb(231,75,36);
+font-size: 13px;
+font-weight: 600;
+background-color: rgb(231,75,36);
+color: #ffff;
+margin: 10px;
+}
+.sub-header :nth-child(2){
+   font-size: 11px;
+   font-weight: 600;
+   color: rgb(51,51,51);
+   margin: -12px;
+   }
+
+.sub-header .rb a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #828282;
+    background: none;
+    margin: 0px 7px;
+    padding: 0px 3px;
+    position: relative;
+    left: 99px;
+    border-right: 1px solid #828282;
+
+}
+.sub-header .rl a{
+    font-weight: 600;
+    color: #828282;
+    margin: 0px 97px;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(51,51,51);
+
+}
+/* header-2 */
+#headerblock-2{
+    height: 70px;
+    width: 100%;
+    background: white;
+}
+span .icon{
+    font-weight: 1000;
+    margin: 24px 41px;
+}
+.color{
+    margin: 0 -17px;
+    color: #20336b;
+    font-size: 25px;
+    font-family: fantasy;
+}
+.color::after{
+    content: "tm";
+    color: #00b9f5;
+}
+input{
+    margin: 0 78px;
+    padding: 6px 35px;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 2px;
+}
+.input:hover{
+background-color: #ebebeb;
+}
+::placeholder{
+    font-size: 17px;
+}
+input:focus{           /* focus is a pseudo selector */
+    outline: none;
+}
+.search{
+    position: relative;
+    left: -445px;
+    color: #828282;
+}
+.one{
+    position: relative;
+    left: 80px;
+    bottom: -8px;
+    width: 30px;
+    height: 30px;
+    outline: none;
+    cursor: pointer;
+}
+.play{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px 85px;
+}
+.two{
+    position: relative;
+    right: 50px;
+    bottom: -8px;
+    width: 29px;
+    height: 36px;
+    cursor: pointer;
+}
+.add{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0px -33px;
+}
+.wallet i{
+    position: relative;
+    right: -47px;
+    bottom: -2px;
+    width: 29px;
+    height: 36px;
+    cursor: pointer;
+}
+.wallet1{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0px 46px;
+}
+.login i{
+    right: 0px;
+    bottom: -2px;
+    width: 29px;
+    height: 36px;
+    cursor: pointer;
+}
+.login1{
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0px 8px;
+}
+/* headerlock 3 */
+#headerblock-3{
+    height: 200px;
+    width: 100%;
+    background-color: #012b72;
+}
+.Postpaid,.elctricitypic,.dtcpic{
+    position: relative;
+    left: 90px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.postpaid,.electricity,.dtc{
+    cursor: pointer;
+    position: relative;
+    left: 6px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.postpaid:hover{
+    color: white;
+}
+.elctricitypic{
+    position: relative;
+    left: 45px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.electricity{
+    cursor: pointer;
+    position: relative;
+    left: -14px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.electricity:hover{
+    color: white;
+}
+.dtcpic{
+    position: relative;
+    left: 20px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.dtc{
+    cursor: pointer;
+    position: relative;
+    left: -19px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.dtc:hover{
+    color: white;
+}
+.flightpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.flight{
+    cursor: pointer;
+    position: relative;
+    left: -16px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.flight:hover{
+    color: white;
+}
+.trainpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.train{
+    cursor: pointer;
+    position: relative;
+    left: -16px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.train:hover{
+    color: white;
+}
+.broadpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.broad{
+    cursor: pointer;
+    position: relative;
+    left: -32px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.broad:hover{
+    color: white;
+}
+
+.fastTagpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.fastTag{
+    cursor: pointer;
+    position: relative;
+    left: -27px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.fastTag:hover{
+    color: white;
+}
+.educationpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.education{
+    cursor: pointer;
+    position: relative;
+    left: -27px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.education:hover{
+    color: white;
+}
+.paypic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.pay{
+    cursor: pointer;
+    position: relative;
+    left: -27px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.pay:hover{
+    color: white;
+}
+.investpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.invest{
+    cursor: pointer;
+    position: relative;
+    left: -50px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.invest:hover{
+    color: white;
+}
+.cylinderpic{
+    position: relative;
+    left: 26px;
+    bottom: -21px;
+    width: 40px ;
+    height: 31px;
+}
+.cylinder{
+    cursor: pointer;
+    position: relative;
+    left: -50px;
+    bottom: -48px;
+    color: cornflowerblue;
+}
+.cylinder:hover{
+    color: white;
+}
+#headerblock-3 .a .b span i{
+    position: relative;
+    left: 1391px;
+    /* top: 16px; */
+    bottom: 1px;
+    width: 40px ;
+    height: 31px;
+    color: white;
+}
+#headerblock-3 .c{
+    cursor: pointer;
+    position: relative;
+    left: 1332px;
+    bottom: -30px;
+    color: cornflowerblue;
+    display: inline-block;
+}
+#headerblock-3 .a .b .c:hover{
+    color: white;
+}
+.a .b .c .d{
+           display: inline-block;
+           text-decoration: none;
+           padding: 20px 30px;
+           text-transform: uppercase;
+           font-weight: bold;
+           left: -35px;
+           position: relative;
+           color: black;
+           background-color: rgb(232, 235, 228);
+           width: 180px;
+           border: 1px solid;
+           display: block;
+}
+
+.a .b .c .d ul a{
+    width: 10px;
+    height: 10px;
+    padding: 10px 10px;
+    border: 1px solid;
+    position: relative;
+}
+  .a .b .c .d ul a img{
+      width: 40px;
+      height: 40px;
+  }
+  .a .b .c .d ul a span{
+      text-decoration: none;
+      font-size: 16px;
+  }
+  .d ul a{
+      height: 10px;
+      width: 200px;
+  }
+
+  .tri i{
+      width: 10px;
+      height: 10px;
+      top: 10px;
+      color: white;
+      left: 10px;
+  }
+#headerblock-4 {
+    position: relative;
+    top: -104px;
+    left: 48px;
+    height: 207px;
+    width: 1405px;
+    background-color:  white;
+}
+.line1{
+    font-family: inherit;
+    font-size: 20px;
+    left: 24px;
+    position: relative;
+    top: 14px;
+}
+.prepaid1{
+    position: relative;
+    left: -346px;
+    bottom: -57px;
+    width: 24px;
+    height: 31px;
+    color: white;
+}
+.prepaid2{
+    cursor: pointer;
+    position: relative;
+    left: -409px;
+    font-size: 19px;
+    bottom: -48px;
+    color: black;
+}
+.postpaid1{
+    position: relative;
+    left: 114px;
+    bottom: -21px;
+    width: 24px ;
+    height: 31px;
+    color: white;
+}
+.postpaid2{
+    cursor: pointer;
+    position: relative;
+    left: 51px;
+    font-size: 19px;
+    bottom: -12px;
+    color: black;
+}
+.input1{
+    position: relative;
+    left: -57px;
+    top: 64px;
+    padding: 11px 11px;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 2px;
+}
+.input2{
+    position: relative;
+    left: 131px;
+    top: 66px;
+    padding: 11px 11px;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 2px;
+}
+.input3{
+    position: relative;
+    left: 277px;
+    top: 19px;
+    padding: 11px 11px;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 2px;
+}
+#checkbox{
+    width: 28px;
+    height: 30px;
+    font-size: 46px;
+    left: 497px;
+    cursor: pointer;
+    top: -65px;
+    position: relative;
+}
+.fastforward{
+    position: relative;
+    left: 442px;
+    bottom: 76px;
+    width: 24px ;
+    height: 31px;
+    cursor: pointer;
+    color: rgb(48, 154, 196);
+}
+.fastforward1{
+    position: relative;
+    left: 452px;
+    bottom: 78px;
+    cursor: pointer;
+}
+.fastforward1 a{
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(17, 83, 109);
+}
+.instant{
+    position: relative;
+    left: 310px;
+    top: -51px;
+    color: grey;
+}
+.button{
+    background: rgb(63, 96, 110);
+    color:white;
+    left: -12px;
+    cursor: pointer;
+    top: 2px;
+    position: relative;
+    padding: 19px 88px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.button:hover{
+    background:rgb(76, 76, 179);
+}
+#headerblock-5{
+    width: 1400px;
+    height: 134px;
+    left: 51px;
+    top: -88px;
+    position: relative;
+    background: rgb(240, 231, 231);
+}
+.app{
+    width: 93px;
+    height: 88px;
+    cursor: pointer;
+    position: relative;
+    left: 40px;
+    top: 11px;
+    border-radius: 50%;
+}
+.mall{
+    font-size: 22px;
+    position: relative;
+    left: -71px;
+    top: 35px;  
+}
+.mall a{
+    text-decoration: none;
+    color: black;
+}
+#headerblock-6{
+    height: 380px;
+    width: 838px;
+    position: relative;
+    left: 51px;
+    top: -63px;
+    background-image: url(./image1.webp);
+}
